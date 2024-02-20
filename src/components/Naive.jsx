@@ -1,5 +1,5 @@
 function Naive() {
-  const data = "Dangerously set Inner HTML"
+  const data = "<p>Dangerously set <b>Inner HTML</b></p>"
   return <div dangerouslySetInnerHTML={{ __html: data }}/>
 }
 
