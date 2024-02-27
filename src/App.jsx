@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <Header title={'My React App'}/>
-      {/* <Naive /> */}
-      <Xss />
+      <Naive />
+      {/* <Xss /> */}
       {/* <Sanitized /> */}
     </>
   )
